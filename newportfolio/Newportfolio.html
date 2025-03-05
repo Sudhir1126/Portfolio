@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhir Venkatesh - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f7fa; /* Lightish blue background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Profile Image */
+        .profile-img {
+            border-radius: 50%;
+            max-width: 180px;
+            height: auto;
+            border: 4px solid #007bff;
+            margin-top: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #005b96;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Skills Section */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .skill-badge {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .skill-badge:hover {
+            background-color: #0056b3;
+        }
+
+        /* Projects Section */
+        .project {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        /* Resume Section */
+        .resume {
+            margin: 20px 0;
+        }
+
+        .resume a {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #007bff;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .resume a:hover {
+            background: #0056b3;
+        }
+
+        /* Contact Section */
+        #contact {
+            background: #b3e5fc; /* Light blue contact section */
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .social-media a {
+            margin: 10px;
+            font-size: 30px;
+            color: #007bff;
+            transition: 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ff6f61;
+            transform: scale(1.2);
+        }
+
+        /* Footer */
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Sudhir Venkatesh - Portfolio</header>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="photo.jpg" alt="Sudhir Venkatesh" class="profile-img">
+        <h1>Hi, I'm Sudhir!</h1>
+        <p>I'm a final-year Computer Science Engineering student at VIT with a passion for Web Development, AI, and Game Development.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">HTML & CSS</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">React.js</span>
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">C#</span>
+            <span class="skill-badge">Unity Engine</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">Postman API</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>1. PyMonster</h3>
+            <p>A gaming website where gamers can share games and receive feedback.</p>
+            <img src="PyMonster.jpg" alt="PyMonster">
+        </div>
+
+        <div class="project">
+            <h3>2. Voice Assistant</h3>
+            <p>An AI voice assistant capable of automating computer tasks like searching the web, accessing social media, and providing real-time updates.</p>
+            <img src="jarvis.jpg" alt="J.A.R.V.I.S">
+        </div>
+
+        <div class="project">
+            <h3>3. DORA: AI-SAAS Platform</h3>
+            <p>An AI-based SaaS platform designed to provide a safe and interactive learning experience for kids.</p>
+            <img src="DORA.jpg" alt="DORA AI-SaaS">
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>Click below to download my resume:</p>
+        <a href="C:/Users/Sudhir%20venkatesh/Desktop/Sudhir%20Venkatesh%20Resume%20new.pdf" download>Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:venkateshsudhir08@gmail.com">venkateshsudhir08@gmail.com</a></p>
+        <p>Phone: +91 8878987436</p>
+
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/sudhir-venkatesh-a9268b252/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Sudhir1126" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Sudhir Venkatesh. All rights reserved.
+    </footer>
+
+</body>
+</html>
